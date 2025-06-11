@@ -27,11 +27,11 @@
             <button class="md:hidden text-white focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
             </button>
-        </div>
+        </div> 
     </header>
 
     <main>
-        <section class="relative h-[70vh] md:h-[80vh] bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('https://placehold.co/1920x800/222/FFF?text=Travel+through+destinations+shaped+by+time.');">
+        <section class="relative h-[70vh] md:h-[80vh] bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('img/machupicchu.jpg');">
             <div class="absolute inset-0 hero-overlay"></div>
             <div class="relative z-10 text-center px-4">
                 <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 rounded-lg">
@@ -59,7 +59,7 @@
         <section class="py-16 px-4 md:px-8 bg-gray-50">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">Popular Destinations</h2>
             <div class="relative flex items-center justify-center">
-                <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 p-3 rounded-full scroll-button text-white z-10 focus:outline-none ml-2">
+                <button id="prevBtn" class="absolute left-44 top-1/2 -translate-y-1/2 p-3 rounded-full scroll-button text-white z-10 focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                 </button>
                 <div id="destinationsContainer" class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 space-x-4 md:space-x-6 lg:space-x-8 max-w-full lg:max-w-6xl mx-auto">
@@ -67,32 +67,32 @@
                         <img src="../img/tajmahal.jpg" alt="Taj Mahal" class="w-full h-48 object-cover">
                         <div class="p-4">
                             <h3 class="font-bold text-xl mb-2 text-gray-800">Taj Mahal</h3>
-                            <p class="text-gray-600">Agra, Índia</p>
+                            <p class="text-gray-600">India</p>
                         </div>
                     </div>
                     <div class="flex-shrink-0 w-72 md:w-80 lg:w-96 snap-center bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                        <img src="https://placehold.co/400x300/D0D0D0/333?text=Petra" alt="Petra" class="w-full h-48 object-cover">
+                        <img src="../img/petra.jpg" alt="Petra" class="w-full h-48 object-cover">
                         <div class="p-4">
                             <h3 class="font-bold text-xl mb-2 text-gray-800">Petra</h3>
-                            <p class="text-gray-600">Ma'an, Jordânia</p>
+                            <p class="text-gray-600">Jordan</p>
                         </div>
                     </div>
                     <div class="flex-shrink-0 w-72 md:w-80 lg:w-96 snap-center bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                        <img src="https://placehold.co/400x300/C0C0C0/333?text=Pir%C3%A2mides" alt="Pirâmides de Gizé" class="w-full h-48 object-cover">
+                        <img src="../img/giza.jpg" alt="Pirâmides de Gizé" class="w-full h-48 object-cover">
                         <div class="p-4">
-                            <h3 class="font-bold text-xl mb-2 text-gray-800">Pirâmides de Gizé</h3>
-                            <p class="text-gray-600">Gizé, Egito</p>
+                            <h3 class="font-bold text-xl mb-2 text-gray-800">Giza Pyramid Complex</h3>
+                            <p class="text-gray-600">Egypt</p>
                         </div>
                     </div>
                     <div class="flex-shrink-0 w-72 md:w-80 lg:w-96 snap-center bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                        <img src="https://placehold.co/400x300/B0B0B0/333?text=Parthenon" alt="Parthenon" class="w-full h-48 object-cover">
+                        <img src="img/parthenon.jpg" alt="Parthenon" class="w-full h-48 object-cover">
                         <div class="p-4">
                             <h3 class="font-bold text-xl mb-2 text-gray-800">Parthenon</h3>
-                            <p class="text-gray-600">Atenas, Grécia</p>
+                            <p class="text-gray-600"></p>Greece</p>
                         </div>
                     </div>
                     </div>
-                <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 p-3 rounded-full scroll-button text-white z-10 focus:outline-none mr-2">
+                <button id="nextBtn" class="absolute right-44 top-1/2 -translate-y-1/2 p-3 rounded-full scroll-button text-white z-10 focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </button>
             </div>
@@ -103,35 +103,15 @@
                 <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0 md:pr-8">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Moments That Matter, Together</h2>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Whether it's a wedding, company retreat, or family gathering, we make group travel simple and unforgettable. Enjoy personalized packages, special rates, and tailored experiences—all designed to bring people together in amazing destinations.
+                        Ready to delve into the past with your favorite people? From exploring archaeological wonders to walking in the footsteps of history's legends, we craft seamless group historical trips. Enjoy personalized packages, special rates, and tailored experiences—all designed to bring people together in amazing destinations.
                     </p>
-                    <button id="planGroupTripBtn" class="bg-green-700 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-800 transition duration-300 shadow-md">
-                        Plan a Group Trip
-                    </button>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400/D0D0D0/333?text=Group+Travel" alt="Group Travel" class="w-full h-auto rounded-xl shadow-lg">
+                    <img src="img/friends.jpg" alt="Group Travel" class="w-full h-auto rounded-xl shadow-lg">
                 </div>
             </div>
         </section>
     </main>
-
-    <div id="travelIdeaModal" class="custom-modal">
-        <div class="custom-modal-content">
-            <span class="custom-modal-close-button" id="closeModalBtn">&times;</span>
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Gerar Ideias de Viagem para Grupo ✨</h3>
-            <p class="text-gray-700 mb-4">Descreva a sua viagem de grupo (número de pessoas, interesses, tipo de destino desejado, orçamento, etc.):</p>
-            <textarea id="groupTripDescription" class="w-full p-3 border border-gray-300 rounded-md mb-4 focus:outline-none focus:ring-2 focus:ring-green-500" rows="6" placeholder="Ex: Somos 10 amigos, gostamos de aventura e natureza, com um orçamento médio. Queremos um destino na América do Sul para 7 dias."></textarea>
-            <button id="generateIdeasBtn" class="bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 shadow-md w-full">
-                ✨ Gerar Ideias de Viagem
-            </button>
-            <div id="loadingIndicator" class="mt-4 text-center text-gray-600 hidden">
-                A gerar ideias... por favor, aguarde.
-            </div>
-            <div id="travelIdeasOutput" class="mt-6 p-4 bg-gray-100 rounded-md border border-gray-200 text-gray-800 whitespace-pre-wrap">
-                </div>
-        </div>
-    </div>
 
     <footer class="bg-zinc-950 text-white py-12 px-4 md:px-8">
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">

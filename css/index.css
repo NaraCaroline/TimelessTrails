@@ -1,70 +1,22 @@
-/* style.css */
-
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f8f8f8;
     color: #333;
 }
 
-/* Estilo para o fundo do cabeçalho, aproximando-se da imagem de referência */
 .header-bg {
-    background-color: #1e3a47; /* Um tom de verde-azulado muito escuro */
+    background-color: #27421b; 
 }
 
-/* Estilo para a sobreposição escura no hero */
 .hero-overlay {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
 }
 
-/* Estilo para o botão de rolagem */
 .scroll-button {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #3e642f;
 }
 
 .scroll-button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #27421b;
 }
 
-/* Estilo para o modal personalizado */
-.custom-modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    justify-content: center;
-    align-items: center;
-}
-
-.custom-modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    max-width: 700px; /* Reduzido de 90% para um valor fixo para controle */
-    width: 90%; /* Ajustado para ser responsivo, mas com max-width */
-    position: relative;
-}
-
-.custom-modal-close-button {
-    color: #aaa;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.custom-modal-close-button:hover,
-.custom-modal-close-button:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
